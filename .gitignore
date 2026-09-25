@@ -8,6 +8,8 @@ __pycache__/
 
 data/raw/
 data/processed/
-models/
+# Ignore model artifacts except the production model
+models/*
+!models/credit_risk_model.pkl
 artifacts/
 mlruns/
